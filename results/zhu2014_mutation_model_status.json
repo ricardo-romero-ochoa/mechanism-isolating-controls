@@ -1,0 +1,14 @@
+{
+  "gate": "G1E independent mutability model",
+  "source": "Zhu et al. 2014 PNAS mutation-accumulation SNMs",
+  "input": "regulatory/cache/1323011111_pnas.1323011111.sd01.txt",
+  "input_probe": {"exists": true, "size": 64752, "looks_html": false},
+  "parsed_SNM": 887,
+  "usable_context_SNM": 886,
+  "reference_match_fraction": 1.0,
+  "pseudocount": 0.5,
+  "reverse_complement_pooled": true,
+  "n_context_classes": 32,
+  "quality_checks": {"parsed_SNM_800_to_900": true, "usable_context_SNM_800_to_900": true, "contexts_with_mutations_ge_25": true, "reference_match_fraction_ge_0p95": true},
+  "verdict": "PASS_MUTABILITY_MODEL"
+}

@@ -1,0 +1,6 @@
+{
+  "protocol_version": "FAMILY_EXPANSION_PLAN_v1.2",
+  "eligible_family_count": 5,
+  "pending_family_count": 2,
+  "generalization_gate": "PASS_MINIMUM_REACHED_PENDING_OTHER_FAMILIES"
+}

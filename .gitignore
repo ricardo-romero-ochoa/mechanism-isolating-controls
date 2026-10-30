@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Downloaded/raw caches and large derived intermediates
+protein/family_cache/
+protein/pg/
+protein/bg_*.npz
+protein/esmM_*.npz
+regulatory/cache/
+regulatory/chunks/
+regulatory/gate1_positions.csv
+
+# Regenerable model/intermediate outputs
+results/family_quality_stageA.json
+results/family_quality_stageB.json
+results/family_quality_all.json
+results/g1e_large_library_models.npz
+results/zhu2014_trinuc_mutation_rates.csv
+results/gate1_exact_mask_*.json
+results/gate1_branch_*.json
+
+# Generated figures are reproducible and need not be committed
+figures/generated/

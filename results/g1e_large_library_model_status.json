@@ -1,0 +1,14 @@
+{
+  "gate": "G1E large-library reconstruction precondition",
+  "protocol": "REGULATORY_GATE_FREEZE_v1.0",
+  "input": "regulatory/cache/GSE104878_20160609_average_promoter_ELs_per_seq_pTpA_ALL.shuffled.txt.gz",
+  "n_valid": 23414517,
+  "n_test": 2341452,
+  "sixmer_R2": 0.5099677434774909,
+  "dinucleotide_R2": 0.4100307802515314,
+  "reb1_target_ranks": {"TTACCC": 8, "GGGTAA": 110},
+  "device": "cpu",
+  "epochs_fixed": 16,
+  "quality_checks": {"n_valid_ge_500k": true, "sixmer_R2_ge_0p48": true, "dinucleotide_R2_ge_0p35": true, "reb1_best_rank_top_1pct": true},
+  "verdict": "PASS_MODEL_RECONSTRUCTION"
+}

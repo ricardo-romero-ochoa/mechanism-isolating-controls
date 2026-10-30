@@ -1,0 +1,27 @@
+{
+  "gate": "G1E regulatory evolutionary association versus mutability",
+  "protocol": "REGULATORY_GATE_FREEZE_v1.0",
+  "input": "regulatory/gate1_positions.csv",
+  "n_positions": 167426,
+  "n_promoters": 641,
+  "n_snps": 1439,
+  "n_boot": 1000,
+  "mutation_covariate": "Zhu-2014 MA RC-pooled trinucleotide log relative rate",
+  "material_beta_threshold": -0.05,
+  "models": {
+    "6-mer": {
+      "uncalibrated": {"log_odds_per_SD": -0.12908836295016426, "odds_ratio": 0.8788963002442881, "ci_low": -0.18890692548924187, "ci_high": -0.07663341085983116, "bootstrap_replicates_used": 1000},
+      "mutability_calibrated": {"log_odds_per_SD": -0.13367763416305614, "odds_ratio": 0.8748720480099591, "ci_low": -0.19599195229160424, "ci_high": -0.07967316797942608, "bootstrap_replicates_used": 1000, "materially_negative": true, "beta_fraction_of_uncalibrated": 1.0355513936966076}
+    },
+    "occupancy": {
+      "uncalibrated": {"log_odds_per_SD": -0.048065587649040814, "odds_ratio": 0.9530712753232109, "ci_low": -0.11872784551921832, "ci_high": 0.010347043871193633, "bootstrap_replicates_used": 1000},
+      "mutability_calibrated": {"log_odds_per_SD": -0.056944814589014785, "odds_ratio": 0.9446461986168293, "ci_low": -0.1273574621919666, "ci_high": 0.01094088959364122, "bootstrap_replicates_used": 1000, "materially_negative": false, "beta_fraction_of_uncalibrated": 1.184731475766138}
+    },
+    "dinucleotide": {
+      "uncalibrated": {"log_odds_per_SD": 0.018815179468129023, "odds_ratio": 1.018993300328889, "ci_low": -0.03714584156100347, "ci_high": 0.06772213964114182, "bootstrap_replicates_used": 1000},
+      "mutability_calibrated": {"log_odds_per_SD": 0.010762137398645504, "odds_ratio": 1.0108202575110925, "ci_low": -0.043684304964504, "ci_high": 0.06561947639747083, "bootstrap_replicates_used": 1000, "materially_negative": false, "beta_fraction_of_uncalibrated": 0.5719922797906581}
+    }
+  },
+  "cross_system_claim_passes": true,
+  "overall": "PASS_MUTABILITY_CALIBRATED_6MER_ASSOCIATION"
+}

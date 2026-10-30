@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its released analysis outputs, please cite this repository and the associated paper."
+title: "Mechanism-isolating controls: reproducible analysis code"
+type: software
+authors:
+  - family-names: Romero
+    given-names: Ricardo
+    orcid: "https://orcid.org/0000-0002-4589-2984"
+repository-code: "https://github.com/ricardo-romero-ochoa/mechanism-isolating-controls"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-29
+preferred-citation:
+  type: article
+  title: "Mechanism-isolating controls distinguish prediction from mechanism in sequence models"
+  authors:
+    - family-names: Romero
+      given-names: Ricardo
+      orcid: "https://orcid.org/0000-0002-4589-2984"
+  year: 2026

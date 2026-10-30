@@ -1,0 +1,15 @@
+{
+  "gate": "G1E public-position reconstruction",
+  "protocol": "REGULATORY_GATE_FREEZE_v1.0",
+  "parser_version": "sgdGene_optional_bin_v1.4_promoter_count_fix",
+  "n_sgd_genes_four_chrom": 689,
+  "n_promoters": 688,
+  "n_promoter_windows": 688,
+  "n_promoters_with_retained_positions": 641,
+  "n_positions": 167426,
+  "n_snps": 1439,
+  "eva_unique_snv_positions_four_chrom": 9591,
+  "quality_checks": {"promoters_within_2pct_of_688": true, "positions_within_3pct_of_167426": true, "eva_four_chrom_SNV_within_5pct_of_9839": true, "promoter_SNP_within_10pct_of_1542": true, "all_12_distance_bins": true},
+  "verdict": "PASS_POSITION_RECONSTRUCTION",
+  "output": "regulatory/gate1_positions.csv"
+}
