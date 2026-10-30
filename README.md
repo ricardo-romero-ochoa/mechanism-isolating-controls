@@ -1,6 +1,6 @@
-# Mechanism-isolating controls distinguish prediction from mechanism in sequence models
+# Mechanism-isolating controls separate prediction from mechanistic inference in sequence models
 
-Public reproducibility repository for the sequence-model analysis by Ricardo Romero.
+Public reproducibility repository for the sequence-model analysis paper by Ricardo Romero.
 
 The repository contains analysis code, fixed analysis settings, compact machine-readable reference outputs, figure-generation code, and one-command rerun scripts for the regulatory-DNA and protein-family analyses.
 
