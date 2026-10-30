@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1439287227.svg)](https://doi.org/10.5281/zenodo.23792793)
+
 # Mechanism-isolating controls separate prediction from mechanistic inference in sequence models
 
 Public reproducibility repository for the sequence-model analysis paper by Ricardo Romero.
